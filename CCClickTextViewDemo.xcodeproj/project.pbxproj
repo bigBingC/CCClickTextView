@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F569C7D90015BDD9CF9EBA /* libPods-CCClickTextViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 087D24A7B6709D3BEFF75DF9 /* libPods-CCClickTextViewDemoUITests.a */; };
+		2D1F78C921E59E4B00F9AF9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1F78C821E59E4B00F9AF9D /* AppDelegate.m */; };
+		2D1F78CC21E59E4B00F9AF9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1F78CB21E59E4B00F9AF9D /* ViewController.m */; };
+		2D1F78CF21E59E4B00F9AF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1F78CD21E59E4B00F9AF9D /* Main.storyboard */; };
+		2D1F78D121E59E4C00F9AF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1F78D021E59E4C00F9AF9D /* Assets.xcassets */; };
+		2D1F78D421E59E4C00F9AF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1F78D221E59E4C00F9AF9D /* LaunchScreen.storyboard */; };
+		2D1F78D721E59E4C00F9AF9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1F78D621E59E4C00F9AF9D /* main.m */; };
+		2D1F78E121E59E4C00F9AF9D /* CCClickTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1F78E021E59E4C00F9AF9D /* CCClickTextViewDemoTests.m */; };
+		2D1F78EC21E59E4C00F9AF9D /* CCClickTextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1F78EB21E59E4C00F9AF9D /* CCClickTextViewDemoUITests.m */; };
+		C48DD60CD332C40ED8F72AA5 /* libPods-CCClickTextViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714B327220AA4BF582366D07 /* libPods-CCClickTextViewDemoTests.a */; };
+		CD782FF4385CD539F6139BF1 /* libPods-CCClickTextViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B640B56E884E0B435C336EC9 /* libPods-CCClickTextViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1F78DD21E59E4C00F9AF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1F78BC21E59E4B00F9AF9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1F78C321E59E4B00F9AF9D;
+			remoteInfo = CCClickTextViewDemo;
+		};
+		2D1F78E821E59E4C00F9AF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1F78BC21E59E4B00F9AF9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1F78C321E59E4B00F9AF9D;
+			remoteInfo = CCClickTextViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087D24A7B6709D3BEFF75DF9 /* libPods-CCClickTextViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCClickTextViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1F78C421E59E4B00F9AF9D /* CCClickTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCClickTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1F78C721E59E4B00F9AF9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D1F78C821E59E4B00F9AF9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D1F78CA21E59E4B00F9AF9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D1F78CB21E59E4B00F9AF9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D1F78CE21E59E4B00F9AF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1F78D021E59E4C00F9AF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1F78D321E59E4C00F9AF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1F78D521E59E4C00F9AF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1F78D621E59E4C00F9AF9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D1F78DC21E59E4C00F9AF9D /* CCClickTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCClickTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1F78E021E59E4C00F9AF9D /* CCClickTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCClickTextViewDemoTests.m; sourceTree = "<group>"; };
+		2D1F78E221E59E4C00F9AF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1F78E721E59E4C00F9AF9D /* CCClickTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCClickTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1F78EB21E59E4C00F9AF9D /* CCClickTextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCClickTextViewDemoUITests.m; sourceTree = "<group>"; };
+		2D1F78ED21E59E4C00F9AF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A710EA8FB0B79448CBF6687 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemoUITests/Pods-CCClickTextViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		555AE1822E1E2BA6D9B54D33 /* Pods-CCClickTextViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemo/Pods-CCClickTextViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57212A2FAC1DAFD6D7F75BF7 /* Pods-CCClickTextViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemo/Pods-CCClickTextViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD9F1554B1657D7D588D069 /* Pods-CCClickTextViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemoTests/Pods-CCClickTextViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F5DCF4B3100A52865D87754 /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemoUITests/Pods-CCClickTextViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		714B327220AA4BF582366D07 /* libPods-CCClickTextViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCClickTextViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B640B56E884E0B435C336EC9 /* libPods-CCClickTextViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCClickTextViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69BAFD40A0F77F1C22D0599 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCClickTextViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCClickTextViewDemoTests/Pods-CCClickTextViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1F78C121E59E4B00F9AF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD782FF4385CD539F6139BF1 /* libPods-CCClickTextViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78D921E59E4C00F9AF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48DD60CD332C40ED8F72AA5 /* libPods-CCClickTextViewDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78E421E59E4C00F9AF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F569C7D90015BDD9CF9EBA /* libPods-CCClickTextViewDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1F78BB21E59E4B00F9AF9D = {
+			isa = PBXGroup;
+			children = (
+				2D1F78C621E59E4B00F9AF9D /* CCClickTextViewDemo */,
+				2D1F78DF21E59E4C00F9AF9D /* CCClickTextViewDemoTests */,
+				2D1F78EA21E59E4C00F9AF9D /* CCClickTextViewDemoUITests */,
+				2D1F78C521E59E4B00F9AF9D /* Products */,
+				A4883738CA3DEEF8156EA01B /* Pods */,
+				CE35A1C1687F94656335E768 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1F78C521E59E4B00F9AF9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1F78C421E59E4B00F9AF9D /* CCClickTextViewDemo.app */,
+				2D1F78DC21E59E4C00F9AF9D /* CCClickTextViewDemoTests.xctest */,
+				2D1F78E721E59E4C00F9AF9D /* CCClickTextViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1F78C621E59E4B00F9AF9D /* CCClickTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D1F78C721E59E4B00F9AF9D /* AppDelegate.h */,
+				2D1F78C821E59E4B00F9AF9D /* AppDelegate.m */,
+				2D1F78CA21E59E4B00F9AF9D /* ViewController.h */,
+				2D1F78CB21E59E4B00F9AF9D /* ViewController.m */,
+				2D1F78CD21E59E4B00F9AF9D /* Main.storyboard */,
+				2D1F78D021E59E4C00F9AF9D /* Assets.xcassets */,
+				2D1F78D221E59E4C00F9AF9D /* LaunchScreen.storyboard */,
+				2D1F78D521E59E4C00F9AF9D /* Info.plist */,
+				2D1F78D621E59E4C00F9AF9D /* main.m */,
+			);
+			path = CCClickTextViewDemo;
+			sourceTree = "<group>";
+		};
+		2D1F78DF21E59E4C00F9AF9D /* CCClickTextViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1F78E021E59E4C00F9AF9D /* CCClickTextViewDemoTests.m */,
+				2D1F78E221E59E4C00F9AF9D /* Info.plist */,
+			);
+			path = CCClickTextViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2D1F78EA21E59E4C00F9AF9D /* CCClickTextViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1F78EB21E59E4C00F9AF9D /* CCClickTextViewDemoUITests.m */,
+				2D1F78ED21E59E4C00F9AF9D /* Info.plist */,
+			);
+			path = CCClickTextViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		A4883738CA3DEEF8156EA01B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57212A2FAC1DAFD6D7F75BF7 /* Pods-CCClickTextViewDemo.debug.xcconfig */,
+				555AE1822E1E2BA6D9B54D33 /* Pods-CCClickTextViewDemo.release.xcconfig */,
+				E69BAFD40A0F77F1C22D0599 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */,
+				6AD9F1554B1657D7D588D069 /* Pods-CCClickTextViewDemoTests.release.xcconfig */,
+				6F5DCF4B3100A52865D87754 /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */,
+				3A710EA8FB0B79448CBF6687 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE35A1C1687F94656335E768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B640B56E884E0B435C336EC9 /* libPods-CCClickTextViewDemo.a */,
+				714B327220AA4BF582366D07 /* libPods-CCClickTextViewDemoTests.a */,
+				087D24A7B6709D3BEFF75DF9 /* libPods-CCClickTextViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1F78C321E59E4B00F9AF9D /* CCClickTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1F78F021E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemo" */;
+			buildPhases = (
+				268172F032112904D5A01CCD /* [CP] Check Pods Manifest.lock */,
+				2D1F78C021E59E4B00F9AF9D /* Sources */,
+				2D1F78C121E59E4B00F9AF9D /* Frameworks */,
+				2D1F78C221E59E4B00F9AF9D /* Resources */,
+				AA1089DACF125D39EF583584 /* [CP] Embed Pods Frameworks */,
+				DBA54DDC2F0769EAE86E2EE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCClickTextViewDemo;
+			productName = CCClickTextViewDemo;
+			productReference = 2D1F78C421E59E4B00F9AF9D /* CCClickTextViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D1F78DB21E59E4C00F9AF9D /* CCClickTextViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1F78F321E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemoTests" */;
+			buildPhases = (
+				72DF0BDFC33145EBB5279A5C /* [CP] Check Pods Manifest.lock */,
+				2D1F78D821E59E4C00F9AF9D /* Sources */,
+				2D1F78D921E59E4C00F9AF9D /* Frameworks */,
+				2D1F78DA21E59E4C00F9AF9D /* Resources */,
+				48E671CD927AABF03F8E7123 /* [CP] Embed Pods Frameworks */,
+				8A657070247A1878F406710B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1F78DE21E59E4C00F9AF9D /* PBXTargetDependency */,
+			);
+			name = CCClickTextViewDemoTests;
+			productName = CCClickTextViewDemoTests;
+			productReference = 2D1F78DC21E59E4C00F9AF9D /* CCClickTextViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D1F78E621E59E4C00F9AF9D /* CCClickTextViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1F78F621E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemoUITests" */;
+			buildPhases = (
+				DAA4BB415C3716116D03F7A7 /* [CP] Check Pods Manifest.lock */,
+				2D1F78E321E59E4C00F9AF9D /* Sources */,
+				2D1F78E421E59E4C00F9AF9D /* Frameworks */,
+				2D1F78E521E59E4C00F9AF9D /* Resources */,
+				697BDCBB7B20134238272BDF /* [CP] Embed Pods Frameworks */,
+				7F3A8E619CC0B037CA9D17D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1F78E921E59E4C00F9AF9D /* PBXTargetDependency */,
+			);
+			name = CCClickTextViewDemoUITests;
+			productName = CCClickTextViewDemoUITests;
+			productReference = 2D1F78E721E59E4C00F9AF9D /* CCClickTextViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1F78BC21E59E4B00F9AF9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ziwutong;
+				TargetAttributes = {
+					2D1F78C321E59E4B00F9AF9D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2D1F78DB21E59E4C00F9AF9D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2D1F78C321E59E4B00F9AF9D;
+					};
+					2D1F78E621E59E4C00F9AF9D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2D1F78C321E59E4B00F9AF9D;
+					};
+				};
+			};
+			buildConfigurationList = 2D1F78BF21E59E4B00F9AF9D /* Build configuration list for PBXProject "CCClickTextViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1F78BB21E59E4B00F9AF9D;
+			productRefGroup = 2D1F78C521E59E4B00F9AF9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1F78C321E59E4B00F9AF9D /* CCClickTextViewDemo */,
+				2D1F78DB21E59E4C00F9AF9D /* CCClickTextViewDemoTests */,
+				2D1F78E621E59E4C00F9AF9D /* CCClickTextViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1F78C221E59E4B00F9AF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1F78D421E59E4C00F9AF9D /* LaunchScreen.storyboard in Resources */,
+				2D1F78D121E59E4C00F9AF9D /* Assets.xcassets in Resources */,
+				2D1F78CF21E59E4B00F9AF9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78DA21E59E4C00F9AF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78E521E59E4C00F9AF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268172F032112904D5A01CCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCClickTextViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E671CD927AABF03F8E7123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemoTests/Pods-CCClickTextViewDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		697BDCBB7B20134238272BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemoUITests/Pods-CCClickTextViewDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DF0BDFC33145EBB5279A5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCClickTextViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3A8E619CC0B037CA9D17D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemoUITests/Pods-CCClickTextViewDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A657070247A1878F406710B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemoTests/Pods-CCClickTextViewDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1089DACF125D39EF583584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemo/Pods-CCClickTextViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA4BB415C3716116D03F7A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCClickTextViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA54DDC2F0769EAE86E2EE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCClickTextViewDemo/Pods-CCClickTextViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1F78C021E59E4B00F9AF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1F78CC21E59E4B00F9AF9D /* ViewController.m in Sources */,
+				2D1F78D721E59E4C00F9AF9D /* main.m in Sources */,
+				2D1F78C921E59E4B00F9AF9D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78D821E59E4C00F9AF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1F78E121E59E4C00F9AF9D /* CCClickTextViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1F78E321E59E4C00F9AF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1F78EC21E59E4C00F9AF9D /* CCClickTextViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1F78DE21E59E4C00F9AF9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1F78C321E59E4B00F9AF9D /* CCClickTextViewDemo */;
+			targetProxy = 2D1F78DD21E59E4C00F9AF9D /* PBXContainerItemProxy */;
+		};
+		2D1F78E921E59E4C00F9AF9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1F78C321E59E4B00F9AF9D /* CCClickTextViewDemo */;
+			targetProxy = 2D1F78E821E59E4C00F9AF9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D1F78CD21E59E4B00F9AF9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1F78CE21E59E4B00F9AF9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1F78D221E59E4C00F9AF9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1F78D321E59E4C00F9AF9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1F78EE21E59E4C00F9AF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D1F78EF21E59E4C00F9AF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1F78F121E59E4C00F9AF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57212A2FAC1DAFD6D7F75BF7 /* Pods-CCClickTextViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D1F78F221E59E4C00F9AF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555AE1822E1E2BA6D9B54D33 /* Pods-CCClickTextViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D1F78F421E59E4C00F9AF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69BAFD40A0F77F1C22D0599 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCClickTextViewDemo.app/CCClickTextViewDemo";
+			};
+			name = Debug;
+		};
+		2D1F78F521E59E4C00F9AF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD9F1554B1657D7D588D069 /* Pods-CCClickTextViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCClickTextViewDemo.app/CCClickTextViewDemo";
+			};
+			name = Release;
+		};
+		2D1F78F721E59E4C00F9AF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5DCF4B3100A52865D87754 /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCClickTextViewDemo;
+			};
+			name = Debug;
+		};
+		2D1F78F821E59E4C00F9AF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A710EA8FB0B79448CBF6687 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = CCClickTextViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.CCClickTextViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCClickTextViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1F78BF21E59E4B00F9AF9D /* Build configuration list for PBXProject "CCClickTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1F78EE21E59E4C00F9AF9D /* Debug */,
+				2D1F78EF21E59E4C00F9AF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1F78F021E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1F78F121E59E4C00F9AF9D /* Debug */,
+				2D1F78F221E59E4C00F9AF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1F78F321E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1F78F421E59E4C00F9AF9D /* Debug */,
+				2D1F78F521E59E4C00F9AF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1F78F621E59E4C00F9AF9D /* Build configuration list for PBXNativeTarget "CCClickTextViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1F78F721E59E4C00F9AF9D /* Debug */,
+				2D1F78F821E59E4C00F9AF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1F78BC21E59E4B00F9AF9D /* Project object */;
+}

@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0333E7C0535ABA6953B60BB6A22E1688 /* Pods-CCClickTextViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 086F776E01DF5ACB7F82870A5AC6C5BC /* Pods-CCClickTextViewDemo-dummy.m */; };
+		06F9B47ABCFF30738D8FD16A57321660 /* Pods-CCClickTextViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE933B574F94B11B0ED4A1D57E6AC2C /* Pods-CCClickTextViewDemoTests-dummy.m */; };
+		2FF8578AD49D876354176C1C732125E3 /* CClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0F908DA4223A42AA459624AE5FAA3 /* CClickTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C837453C959B6ED449CD6317E25096C /* CClickTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E540032E02EAD58E5425DBE12FADAC3F /* CClickTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		872B5C66DC9077303E629F3A1C1801EB /* Pods-CCClickTextViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65240EA02F03A5DA24AB4A33D0D40BD9 /* Pods-CCClickTextViewDemoUITests-dummy.m */; };
+		B41F3DC181651589C0B36BE27AD8BE96 /* CCClickTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 071408E9E6ADF187671E2E25CC5EA52B /* CCClickTextView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C8553D169CE4EBC9717FFE2D5A2931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A667F3E7C0135240558AAB4C7126F88F;
+			remoteInfo = CCClickTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071408E9E6ADF187671E2E25CC5EA52B /* CCClickTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCClickTextView-dummy.m"; sourceTree = "<group>"; };
+		086F776E01DF5ACB7F82870A5AC6C5BC /* Pods-CCClickTextViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCClickTextViewDemo-dummy.m"; sourceTree = "<group>"; };
+		0B7F7469CD79A929E87710385C7CA5EF /* Pods-CCClickTextViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCClickTextViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0ED0F908DA4223A42AA459624AE5FAA3 /* CClickTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CClickTextView.m; path = CCClickTextView/CClickTextView.m; sourceTree = "<group>"; };
+		2AA034A1C25E845AD4F5EFAB2EBAF8C6 /* CCClickTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCClickTextView.xcconfig; sourceTree = "<group>"; };
+		322CCA9C0F3725F1BF964579BCF54FDF /* Pods-CCClickTextViewDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemoTests-resources.sh"; sourceTree = "<group>"; };
+		38F023C3C89916DD3D17906A5A4EFABF /* Pods-CCClickTextViewDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3BF4376C58F4190B09815C8BDB5162B5 /* libPods-CCClickTextViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCClickTextViewDemoUITests.a"; path = "libPods-CCClickTextViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7E27FB790C7B37FA52AE46551ED4D2 /* libCCClickTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCCClickTextView.a; path = libCCClickTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		488CD0D635E787E9BD3A7D5E981E1D4C /* Pods-CCClickTextViewDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		4B71A45548D195D9171EC4C49016F035 /* Pods-CCClickTextViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		55491CF27CF9CB5E31AD273F7A88405E /* libPods-CCClickTextViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCClickTextViewDemo.a"; path = "libPods-CCClickTextViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB0E42410CD65063E43FF8118C694FC /* CCClickTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCClickTextView-prefix.pch"; sourceTree = "<group>"; };
+		65240EA02F03A5DA24AB4A33D0D40BD9 /* Pods-CCClickTextViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCClickTextViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		65845F9FD97D545B7514A2EB67027110 /* Pods-CCClickTextViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCClickTextViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A5400C6BC693EDF1B6F5F3580FCB17F /* Pods-CCClickTextViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCClickTextViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7307CB75F82BC8F8549BD9EC547E0297 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78416013EC558B48DBCD7E23987C5A96 /* Pods-CCClickTextViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCClickTextViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A9036D85E8F6926B1891D76CCD6EB1E /* Pods-CCClickTextViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemo-resources.sh"; sourceTree = "<group>"; };
+		9298E1FB3CB11324D2374A1CA1BF1B9C /* Pods-CCClickTextViewDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCClickTextViewDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DD6D0D2FB5F15B307E285B2EF0A8B1 /* Pods-CCClickTextViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9FAE472BB488DC3E9D66A41A986CA764 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8437CBB8DCEAD212594364058A52966 /* Pods-CCClickTextViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0DBAFF17384F987C3609F2260D156C4 /* Pods-CCClickTextViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCClickTextViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA69877DA700A1D728D9309C09AC8DCA /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC23253712516AEFA1D39F91E424CC53 /* Pods-CCClickTextViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCClickTextViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C6501CC9EF5E64457BDF4592DAC04349 /* Pods-CCClickTextViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCClickTextViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5007E20E5FD113A9B3167C2E39949A5 /* CCClickTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CCClickTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E540032E02EAD58E5425DBE12FADAC3F /* CClickTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CClickTextView.h; path = CCClickTextView/CClickTextView.h; sourceTree = "<group>"; };
+		FC7B7DDD7EF92D19E5856EA48CB1446B /* libPods-CCClickTextViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCClickTextViewDemoTests.a"; path = "libPods-CCClickTextViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE933B574F94B11B0ED4A1D57E6AC2C /* Pods-CCClickTextViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCClickTextViewDemoTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A4873C01B3390D82F8707272A38E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9583E461B41DCC2DFAA49BCA71D94840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64F9CC3213A25EE527A543B6A03CB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBC3ECFE8F09F080200B8340E2411F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		116371833DFADD8C03C61A40568816B0 /* CCClickTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E540032E02EAD58E5425DBE12FADAC3F /* CClickTextView.h */,
+				0ED0F908DA4223A42AA459624AE5FAA3 /* CClickTextView.m */,
+				822F42DE9A9BB295CF179438513527C8 /* Pod */,
+				3B4F7A19B7C2A7F73566C64761E08087 /* Support Files */,
+			);
+			name = CCClickTextView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3172C078578DB3C4414776E95AB91E0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5B79070D5DCAA24C4E2D7DE4D5C6 /* Pods-CCClickTextViewDemo */,
+				73ADACEE9E99BAF329CF2A605F159BA3 /* Pods-CCClickTextViewDemoTests */,
+				6F376346DC014D3CD00F55ADAF7EC3BD /* Pods-CCClickTextViewDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38BF5B79070D5DCAA24C4E2D7DE4D5C6 /* Pods-CCClickTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				78416013EC558B48DBCD7E23987C5A96 /* Pods-CCClickTextViewDemo-acknowledgements.markdown */,
+				B0DBAFF17384F987C3609F2260D156C4 /* Pods-CCClickTextViewDemo-acknowledgements.plist */,
+				086F776E01DF5ACB7F82870A5AC6C5BC /* Pods-CCClickTextViewDemo-dummy.m */,
+				4B71A45548D195D9171EC4C49016F035 /* Pods-CCClickTextViewDemo-frameworks.sh */,
+				8A9036D85E8F6926B1891D76CCD6EB1E /* Pods-CCClickTextViewDemo-resources.sh */,
+				98DD6D0D2FB5F15B307E285B2EF0A8B1 /* Pods-CCClickTextViewDemo.debug.xcconfig */,
+				BC23253712516AEFA1D39F91E424CC53 /* Pods-CCClickTextViewDemo.release.xcconfig */,
+			);
+			name = "Pods-CCClickTextViewDemo";
+			path = "Target Support Files/Pods-CCClickTextViewDemo";
+			sourceTree = "<group>";
+		};
+		39ADD1A56F26A6CB31EC5B497E7A04D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				116371833DFADD8C03C61A40568816B0 /* CCClickTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B4F7A19B7C2A7F73566C64761E08087 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA034A1C25E845AD4F5EFAB2EBAF8C6 /* CCClickTextView.xcconfig */,
+				071408E9E6ADF187671E2E25CC5EA52B /* CCClickTextView-dummy.m */,
+				5CB0E42410CD65063E43FF8118C694FC /* CCClickTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CCClickTextView";
+			sourceTree = "<group>";
+		};
+		6F376346DC014D3CD00F55ADAF7EC3BD /* Pods-CCClickTextViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A5400C6BC693EDF1B6F5F3580FCB17F /* Pods-CCClickTextViewDemoUITests-acknowledgements.markdown */,
+				0B7F7469CD79A929E87710385C7CA5EF /* Pods-CCClickTextViewDemoUITests-acknowledgements.plist */,
+				65240EA02F03A5DA24AB4A33D0D40BD9 /* Pods-CCClickTextViewDemoUITests-dummy.m */,
+				38F023C3C89916DD3D17906A5A4EFABF /* Pods-CCClickTextViewDemoUITests-frameworks.sh */,
+				488CD0D635E787E9BD3A7D5E981E1D4C /* Pods-CCClickTextViewDemoUITests-resources.sh */,
+				BA69877DA700A1D728D9309C09AC8DCA /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */,
+				7307CB75F82BC8F8549BD9EC547E0297 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-CCClickTextViewDemoUITests";
+			path = "Target Support Files/Pods-CCClickTextViewDemoUITests";
+			sourceTree = "<group>";
+		};
+		73ADACEE9E99BAF329CF2A605F159BA3 /* Pods-CCClickTextViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6501CC9EF5E64457BDF4592DAC04349 /* Pods-CCClickTextViewDemoTests-acknowledgements.markdown */,
+				65845F9FD97D545B7514A2EB67027110 /* Pods-CCClickTextViewDemoTests-acknowledgements.plist */,
+				FFE933B574F94B11B0ED4A1D57E6AC2C /* Pods-CCClickTextViewDemoTests-dummy.m */,
+				9298E1FB3CB11324D2374A1CA1BF1B9C /* Pods-CCClickTextViewDemoTests-frameworks.sh */,
+				322CCA9C0F3725F1BF964579BCF54FDF /* Pods-CCClickTextViewDemoTests-resources.sh */,
+				9FAE472BB488DC3E9D66A41A986CA764 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */,
+				A8437CBB8DCEAD212594364058A52966 /* Pods-CCClickTextViewDemoTests.release.xcconfig */,
+			);
+			name = "Pods-CCClickTextViewDemoTests";
+			path = "Target Support Files/Pods-CCClickTextViewDemoTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39ADD1A56F26A6CB31EC5B497E7A04D5 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				9B3533FB0A70ED3D1E5DDA8760B3C8EE /* Products */,
+				3172C078578DB3C4414776E95AB91E0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		822F42DE9A9BB295CF179438513527C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5007E20E5FD113A9B3167C2E39949A5 /* CCClickTextView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B3533FB0A70ED3D1E5DDA8760B3C8EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E27FB790C7B37FA52AE46551ED4D2 /* libCCClickTextView.a */,
+				55491CF27CF9CB5E31AD273F7A88405E /* libPods-CCClickTextViewDemo.a */,
+				FC7B7DDD7EF92D19E5856EA48CB1446B /* libPods-CCClickTextViewDemoTests.a */,
+				3BF4376C58F4190B09815C8BDB5162B5 /* libPods-CCClickTextViewDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5632AA7DEE4BF4190D802FC1A8B42328 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C837453C959B6ED449CD6317E25096C /* CClickTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E03A98165A0A674F0C763826324290C /* Pods-CCClickTextViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33F710C44EFD6B3B313C29327458C43 /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemoTests" */;
+			buildPhases = (
+				87061331B51D10CA000A442219148D10 /* Sources */,
+				67A4873C01B3390D82F8707272A38E3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCClickTextViewDemoTests";
+			productName = "Pods-CCClickTextViewDemoTests";
+			productReference = FC7B7DDD7EF92D19E5856EA48CB1446B /* libPods-CCClickTextViewDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87DA446DDD16AE2606EA5A6DC0C53115 /* Pods-CCClickTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148459DE4D56A10486AFCBAE911A39C0 /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemo" */;
+			buildPhases = (
+				3DFD06C21C860132374E2CF99CC22DB8 /* Sources */,
+				A64F9CC3213A25EE527A543B6A03CB6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5F769801A93319BC6B1836D8A5C72F /* PBXTargetDependency */,
+			);
+			name = "Pods-CCClickTextViewDemo";
+			productName = "Pods-CCClickTextViewDemo";
+			productReference = 55491CF27CF9CB5E31AD273F7A88405E /* libPods-CCClickTextViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A667F3E7C0135240558AAB4C7126F88F /* CCClickTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F43455525F40878EC55322CB6D364F /* Build configuration list for PBXNativeTarget "CCClickTextView" */;
+			buildPhases = (
+				7586FEFCD1EB9485E32D3C697F0AE0DF /* Sources */,
+				BFBC3ECFE8F09F080200B8340E2411F3 /* Frameworks */,
+				5632AA7DEE4BF4190D802FC1A8B42328 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCClickTextView;
+			productName = CCClickTextView;
+			productReference = 3C7E27FB790C7B37FA52AE46551ED4D2 /* libCCClickTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE42CF43B6339AE4E06A975CDE2385BC /* Pods-CCClickTextViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74924722C5A1A810FD6B263441DB205A /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemoUITests" */;
+			buildPhases = (
+				320277FD358E5A051F73E44828EF27ED /* Sources */,
+				9583E461B41DCC2DFAA49BCA71D94840 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCClickTextViewDemoUITests";
+			productName = "Pods-CCClickTextViewDemoUITests";
+			productReference = 3BF4376C58F4190B09815C8BDB5162B5 /* libPods-CCClickTextViewDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B3533FB0A70ED3D1E5DDA8760B3C8EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A667F3E7C0135240558AAB4C7126F88F /* CCClickTextView */,
+				87DA446DDD16AE2606EA5A6DC0C53115 /* Pods-CCClickTextViewDemo */,
+				3E03A98165A0A674F0C763826324290C /* Pods-CCClickTextViewDemoTests */,
+				BE42CF43B6339AE4E06A975CDE2385BC /* Pods-CCClickTextViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320277FD358E5A051F73E44828EF27ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B5C66DC9077303E629F3A1C1801EB /* Pods-CCClickTextViewDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFD06C21C860132374E2CF99CC22DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0333E7C0535ABA6953B60BB6A22E1688 /* Pods-CCClickTextViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586FEFCD1EB9485E32D3C697F0AE0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41F3DC181651589C0B36BE27AD8BE96 /* CCClickTextView-dummy.m in Sources */,
+				2FF8578AD49D876354176C1C732125E3 /* CClickTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87061331B51D10CA000A442219148D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F9B47ABCFF30738D8FD16A57321660 /* Pods-CCClickTextViewDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5F769801A93319BC6B1836D8A5C72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCClickTextView;
+			target = A667F3E7C0135240558AAB4C7126F88F /* CCClickTextView */;
+			targetProxy = A0C8553D169CE4EBC9717FFE2D5A2931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B21FA7E38F6B9FCD8716FBB144283E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC23253712516AEFA1D39F91E424CC53 /* Pods-CCClickTextViewDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B6FA96FAA611A62279C49F6E01C059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3691EFF605EB29787F8A46C5B6BE1D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F79AD6A46215CFC3FF20C62C2C0DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7307CB75F82BC8F8549BD9EC547E0297 /* Pods-CCClickTextViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD78F0B5DE21BE8E0DC88E06C69C7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA69877DA700A1D728D9309C09AC8DCA /* Pods-CCClickTextViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A177E87E23FE8A82C5C87137F7F1B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8437CBB8DCEAD212594364058A52966 /* Pods-CCClickTextViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8746A54157A9847ACBA064E5E11F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA034A1C25E845AD4F5EFAB2EBAF8C6 /* CCClickTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CCClickTextView/CCClickTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3A5B081C733C9BE5015B2E5EA9957A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA034A1C25E845AD4F5EFAB2EBAF8C6 /* CCClickTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CCClickTextView/CCClickTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5A95C8B089DC45430FDD06A57FBF7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DD6D0D2FB5F15B307E285B2EF0A8B1 /* Pods-CCClickTextViewDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10C493D8FFB63B3CECEB9D8817E4CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAE472BB488DC3E9D66A41A986CA764 /* Pods-CCClickTextViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148459DE4D56A10486AFCBAE911A39C0 /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A95C8B089DC45430FDD06A57FBF7B8 /* Debug */,
+				18B21FA7E38F6B9FCD8716FBB144283E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FA96FAA611A62279C49F6E01C059F /* Debug */,
+				3691EFF605EB29787F8A46C5B6BE1D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F43455525F40878EC55322CB6D364F /* Build configuration list for PBXNativeTarget "CCClickTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8746A54157A9847ACBA064E5E11F9D8 /* Debug */,
+				C3A5B081C733C9BE5015B2E5EA9957A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74924722C5A1A810FD6B263441DB205A /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD78F0B5DE21BE8E0DC88E06C69C7BF /* Debug */,
+				59F79AD6A46215CFC3FF20C62C2C0DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33F710C44EFD6B3B313C29327458C43 /* Build configuration list for PBXNativeTarget "Pods-CCClickTextViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C493D8FFB63B3CECEB9D8817E4CD6 /* Debug */,
+				A177E87E23FE8A82C5C87137F7F1B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
