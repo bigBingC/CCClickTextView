@@ -1,1 +1,1 @@
-../../../../CCClickTextView/CClickTextView.h
+../../../CCClickTextView/CCClickTextView/CClickTextView.h

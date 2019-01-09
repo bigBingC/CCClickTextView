@@ -2,15 +2,11 @@ PODS:
   - CCClickTextView (0.0.1)
 
 DEPENDENCIES:
-  - CCClickTextView (from `./`)
-
-EXTERNAL SOURCES:
-  CCClickTextView:
-    :path: ./
+  - CCClickTextView (~> 0.0.1)
 
 SPEC CHECKSUMS:
-  CCClickTextView: 987e2d132ea0298debcbcfa4e2a57494d7f63632
+  CCClickTextView: 8980a2729607d95813676a46ec90a438b8e4ead1
 
-PODFILE CHECKSUM: 1396a85d42b73a52d8b0d21d8d72733b6d0cc926
+PODFILE CHECKSUM: 3fbd140a018361831a057ec84298d5c62b50910b
 
 COCOAPODS: 1.4.0

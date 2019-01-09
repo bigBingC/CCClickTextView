@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "CCClickTextView"
   s.version      = "0.0.1"
-  s.summary      = "一个可以添加多断点击事件的textview"
+  s.summary      = "一个可以添加多段点击事件的textview"
   s.description  = "这是个详细描述：一个可以添加多断点击事件的textview"
   s.homepage     = "https://github.com/bigBingC/CCClickTextView"
   s.license      = "MIT"
